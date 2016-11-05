@@ -1,0 +1,60 @@
+{
+  "survey_properties": {
+    "intro_message": "<strong>Please Go through the questions and answer carefully</strong><br><br><br>   Each question will be having multiple choices with single answers or multiple answers <br><br> Questions are based on the domain of tender you just chose <br><br>It will take less than 2 minutes to answer everything",
+    "end_message": "Thank you! Your bid has been submitted",
+    "skip_intro": false
+  },
+  "questions": [
+    {
+      "question_type": "Checkboxes",
+      "question_title": "What type of steel would you use for the construction of this bridge?",
+      "description": "(Select all that apply)",
+      "required": false,
+      "random_choices": false,
+      "choices": [
+        "IRC 22",
+        "IS : 2062",
+        "IS : 8500",
+        "IRC 24"
+      ]
+    },
+    {
+      "question_type": "Checkboxes",
+      "question_title": "Which grade cement would you use?",
+      "description": "(Select all that apply)",
+      "required": false,
+      "random_choices": true,
+      "choices": [
+        "Low heat cement",
+        "Quick setting cement",
+        "High Alumina cement",
+		"White cement"
+      ]
+    },
+	{
+      "question_type": "Checkboxes",
+      "question_title": "Q3. What is the minimum weight load limit for the bridge for a single axle?",
+      "description": "(Select all that apply)",
+      "required": false,
+      "random_choices": true,
+      "choices": [
+        "9,400 kg",
+        "2,100 kg",
+        "1,000 kg",
+		"3,000 kg"
+      ]
+    },
+    {
+      "question_type": "String",
+      "question_title": "What is the minimum time frame required for this project completion as per your thought? <br>(Eg: 1y or 6m or 2y8m)",
+      "description": "",
+      "required": false
+    },
+    {
+      "question_title": "Provide us with an estimate amount required for the work completion<br>(Eg: 123456)",
+      "description": "",
+      "required": false,
+      "question_type": "Number"
+    }
+  ]
+}

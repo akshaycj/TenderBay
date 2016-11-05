@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "790762803697",
+    "firebase_url": "https://tenderbay-d645b.firebaseio.com",
+    "project_id": "tenderbay-d645b",
+    "storage_bucket": "tenderbay-d645b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790762803697:android:c643f2069820ae99",
+        "android_client_info": {
+          "package_name": "com.edualchem.tenderbay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790762803697-anqh46o9jejic6920uu77otrorp6kjqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmlUXv3zOx64MSX2F67y-87rgsvSosCvQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
